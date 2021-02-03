@@ -33,5 +33,6 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with pytest
       run: |
-        export DJANGO_SETTINGS_MODULE=biometric_test_project-main.settings
+        export DJANGO_SETTINGS_MODULE=core.settings
+        heroku config:set DJANGO_SETTINGS_MODULE=core.settings --account personal
         pytest
