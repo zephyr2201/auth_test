@@ -1,0 +1,13 @@
+asgiref
+attrs
+Django
+djangorestframework
+iniconfig
+packaging
+pluggy
+py
+pyparsing
+pytest
+pytz
+sqlparse
+toml
