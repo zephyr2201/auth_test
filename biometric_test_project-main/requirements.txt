@@ -1,6 +1,6 @@
 asgiref
 attrs
-Django
+django
 djangorestframework
 iniconfig
 packaging
